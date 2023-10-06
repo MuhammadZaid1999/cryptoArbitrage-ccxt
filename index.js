@@ -23,8 +23,8 @@ const ccxt = require('ccxt');
 
     // ******************** Private Functions ***********************
     const exchange1 = new ccxt.binance({
-        apiKey: 'KsPM14Y0nAvfeHoSvrXLzLH9rnIS8DkBaXDcbR3jTxhaeqDlzY3rzMXcYTyzzbcc',
-        secret: 'IdkzHY25Czl5PnrrA46DJCVAeYKzjzfJZ01vmaG5LHz7iBv8XDrfAZitRawdhW3m',
+        apiKey: '',
+        secret: '',
     });
     // console.log(await exchange1.fetchBalance()) fetch all user balance against coins
     // console.log(await exchange1.fetchOrders('COTI/USDT'))  fetch buy and sell orders... price, amount and cost etc.
